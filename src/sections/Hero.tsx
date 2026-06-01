@@ -130,12 +130,12 @@ export function Hero() {
 
       {/* Clarity */}
       <div className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-8 py-12"
-        style={{ background:`linear-gradient(135deg, #DECAA8 0%, #CEB894 100%)` }}>
+        style={{ background:`linear-gradient(135deg, #EDD9B4 0%, #E4CCA0 100%)` }}>
         <div className="pointer-events-none absolute inset-0"
-          style={{ background:'radial-gradient(ellipse 60% 50% at 50% 60%, rgba(11,122,82,0.07), transparent)' }}
+          style={{ background:'radial-gradient(ellipse 60% 50% at 50% 60%, rgba(9,92,60,0.07), transparent)' }}
         />
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs"
-          style={{ background:'rgba(11,122,82,0.1)', color:C.em, border:'1px solid rgba(11,122,82,0.25)' }}>
+          style={{ background:'rgba(9,92,60,0.1)', color:C.em, border:'1px solid rgba(9,92,60,0.28)' }}>
           baada · after
         </div>
 
@@ -146,7 +146,7 @@ export function Hero() {
           className="relative z-10 flex flex-col items-start gap-5 w-full max-w-sm"
         >
           <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs"
-            style={{ background:'rgba(154,106,10,0.1)', border:'1px solid rgba(154,106,10,0.28)', color:C.gold }}>
+            style={{ background:'rgba(107,72,8,0.1)', border:'1px solid rgba(107,72,8,0.3)', color:C.gold }}>
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />
             Built for Kenya · M-Pesa native
           </div>

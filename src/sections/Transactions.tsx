@@ -71,7 +71,7 @@ export function Transactions() {
   const inView = useInView(ref, { once: true, amount: 0.2 })
 
   return (
-    <section ref={ref} className="px-6 py-24 overflow-hidden" style={{ background:'#DECAA8' }}>
+    <section ref={ref} className="px-6 py-24 overflow-hidden" style={{ background:'#EDD9B4' }}>
       <div className="mx-auto max-w-6xl">
 
         {/* Header */}
@@ -163,7 +163,7 @@ export function Transactions() {
 
             {/* AI tag */}
             <motion.div className="mt-4 flex items-center gap-2 rounded-lg px-3 py-2"
-              style={{ background:'rgba(154,106,10,0.07)', border:`1px solid rgba(154,106,10,0.2)` }}
+              style={{ background:'rgba(107,72,8,0.07)', border:`1px solid rgba(107,72,8,0.2)` }}
               initial={{ opacity:0 }} animate={inView ? { opacity:1 } : {}}
               transition={{ delay:1.2, duration:0.5 }}>
               <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" />

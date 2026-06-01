@@ -16,7 +16,7 @@ const plots = [
 ]
 
 function plotColor(pct: number): string {
-  if (pct >= 100) return '#10b981' // paid/complete — emerald
+  if (pct >= 100) return C.em      // paid/complete — emerald
   if (pct >= 75)  return C.terra   // approaching — terracotta
   if (pct >= 50)  return C.gold    // caution — gold
   return C.em                      // healthy — emerald

@@ -161,7 +161,7 @@ export function Accounts() {
 
             {/* Net worth total */}
             <motion.div className="flex items-center justify-between rounded-xl px-4 py-4 mt-1"
-              style={{ background:`rgba(11,122,82,0.08)`, border:`1px solid rgba(11,122,82,0.25)` }}
+              style={{ background:`rgba(9,92,60,0.08)`, border:`1px solid rgba(9,92,60,0.28)` }}
               initial={{ opacity:0, y:12 }} animate={inView ? { opacity:1, y:0 } : {}}
               transition={{ delay:0.8, duration:0.5 }}>
               <div>

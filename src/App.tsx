@@ -83,7 +83,7 @@ export default function App() {
 
       {/* Nav */}
       <header className="sticky top-0 z-50 backdrop-blur-md"
-        style={{ background:'rgba(252,247,239,0.93)', borderBottom:`1px solid rgba(154,106,10,0.18)`, boxShadow:'0 1px 16px rgba(60,42,24,0.06)' }}>
+        style={{ background:'rgba(252,247,239,0.93)', borderBottom:`1px solid rgba(107,72,8,0.18)`, boxShadow:'0 1px 16px rgba(60,42,24,0.06)' }}>
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-md bg-emerald-500 text-xs font-bold text-slate-950">CL</div>
@@ -120,7 +120,7 @@ export default function App() {
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href={`${APP_URL}/register`}
               className="inline-flex items-center gap-2 rounded-md bg-emerald-500 px-8 py-3 text-sm font-medium text-slate-950 transition-all hover:bg-emerald-400"
-              style={{ boxShadow:'0 0 32px rgba(11,122,82,0.18)' }}>
+              style={{ boxShadow:'0 0 32px rgba(9,92,60,0.18)' }}>
               Create your free account <Arrow />
             </a>
             <a href={`${APP_URL}/login`} className="text-sm transition-colors" style={{ color:C.bg600 }}>
