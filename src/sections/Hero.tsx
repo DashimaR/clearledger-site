@@ -113,13 +113,13 @@ export function Hero() {
     <section className="relative flex overflow-hidden"
       style={{ height:'calc(100vh - 57px)', minHeight:'600px' }}>
 
-      {/* Chaos */}
-      <div className="relative flex-1 overflow-hidden noise-overlay" style={{ background:C.bg950 }}>
+      {/* Chaos — intentionally dark: receipts scattered on a shadowed desk */}
+      <div className="relative flex-1 overflow-hidden noise-overlay" style={{ background:'#1C1208' }}>
         <div className="absolute inset-0 z-10 pointer-events-none"
-          style={{ background:'radial-gradient(ellipse 70% 70% at 55% 45%, transparent 30%, rgba(13,9,6,0.75) 100%)' }}
+          style={{ background:'radial-gradient(ellipse 70% 70% at 55% 45%, transparent 30%, rgba(12,8,2,0.75) 100%)' }}
         />
         <div className="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 rounded-full px-3 py-1 text-xs"
-          style={{ background:'rgba(13,9,6,0.8)', color:C.bg600, border:`1px solid ${C.bg700}` }}>
+          style={{ background:'rgba(12,8,2,0.82)', color:'#9A8B7A', border:'1px solid #3D2E1E' }}>
           kabla · before
         </div>
         {cards.map(c => <ChaosCard key={c.id} {...c} />)}
@@ -132,10 +132,10 @@ export function Hero() {
       <div className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-8 py-12"
         style={{ background:`linear-gradient(135deg, ${C.bg950} 0%, ${C.bg900} 100%)` }}>
         <div className="pointer-events-none absolute inset-0"
-          style={{ background:'radial-gradient(ellipse 60% 50% at 50% 60%, rgba(16,185,129,0.04), transparent)' }}
+          style={{ background:'radial-gradient(ellipse 60% 50% at 50% 60%, rgba(11,122,82,0.07), transparent)' }}
         />
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs"
-          style={{ background:'rgba(16,185,129,0.08)', color:C.em, border:'1px solid rgba(16,185,129,0.2)' }}>
+          style={{ background:'rgba(11,122,82,0.1)', color:C.em, border:'1px solid rgba(11,122,82,0.25)' }}>
           baada · after
         </div>
 
@@ -146,7 +146,7 @@ export function Hero() {
           className="relative z-10 flex flex-col items-start gap-5 w-full max-w-sm"
         >
           <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs"
-            style={{ background:'rgba(212,168,67,0.08)', border:'1px solid rgba(212,168,67,0.25)', color:C.gold }}>
+            style={{ background:'rgba(154,106,10,0.1)', border:'1px solid rgba(154,106,10,0.28)', color:C.gold }}>
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />
             Built for Kenya · M-Pesa native
           </div>
@@ -179,7 +179,7 @@ export function Hero() {
             </a>
             <a href={`${APP_URL}/login`}
               className="inline-flex items-center gap-2 rounded-md px-5 py-2.5 text-sm transition-colors"
-              style={{ border:`1px solid ${C.bg700}`, color:C.muted }}>
+              style={{ border:`1px solid ${C.bg700}`, color:C.muted, background:C.bg800 }}>
               Sign in
             </a>
           </div>

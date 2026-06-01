@@ -14,7 +14,7 @@ function SectionDivider() {
     <div className="w-full" style={{
       height:'2px',
       background:`repeating-linear-gradient(to right, ${C.gold} 0px, ${C.gold} 8px, transparent 8px, transparent 16px)`,
-      opacity:0.2,
+      opacity:0.45,
     }} />
   )
 }
@@ -79,11 +79,11 @@ function Kenya() {
 // ── Page ──────────────────────────────────────────────────────────────────────
 export default function App() {
   return (
-    <div style={{ background:C.bg950, color:C.text, fontFamily:"'IBM Plex Mono', Menlo, monospace", minHeight:'100vh' }}>
+    <div style={{ background:C.bg950, color:C.text, fontFamily:"'Nunito', system-ui, sans-serif", minHeight:'100vh' }}>
 
       {/* Nav */}
       <header className="sticky top-0 z-50 backdrop-blur-md"
-        style={{ background:'rgba(13,9,6,0.88)', borderBottom:`1px solid rgba(212,168,67,0.15)` }}>
+        style={{ background:'rgba(252,247,239,0.93)', borderBottom:`1px solid rgba(154,106,10,0.18)`, boxShadow:'0 1px 16px rgba(60,42,24,0.06)' }}>
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-md bg-emerald-500 text-xs font-bold text-slate-950">CL</div>
@@ -120,7 +120,7 @@ export default function App() {
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href={`${APP_URL}/register`}
               className="inline-flex items-center gap-2 rounded-md bg-emerald-500 px-8 py-3 text-sm font-medium text-slate-950 transition-all hover:bg-emerald-400"
-              style={{ boxShadow:'0 0 32px rgba(16,185,129,0.25)' }}>
+              style={{ boxShadow:'0 0 32px rgba(11,122,82,0.18)' }}>
               Create your free account <Arrow />
             </a>
             <a href={`${APP_URL}/login`} className="text-sm transition-colors" style={{ color:C.bg600 }}>
@@ -136,9 +136,9 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="flex h-7 w-7 items-center justify-center rounded-md bg-emerald-500 text-xs font-bold text-slate-950">CL</div>
             <span className="text-sm" style={{ color:C.muted }}>ClearLedger</span>
-            <span className="text-xs" style={{ color:C.bg700 }}>· Mwanga</span>
+            <span className="text-xs" style={{ color:C.bg600 }}>· Mwanga</span>
           </div>
-          <div className="flex items-center gap-6 text-xs" style={{ color:C.bg700 }}>
+          <div className="flex items-center gap-6 text-xs" style={{ color:C.bg600 }}>
             <a href={`${APP_URL}/login`} className="transition-colors hover:text-emerald-400">Sign in</a>
             <a href={`${APP_URL}/register`} className="transition-colors hover:text-emerald-400">Register</a>
             <span>© {new Date().getFullYear()} ClearLedger</span>

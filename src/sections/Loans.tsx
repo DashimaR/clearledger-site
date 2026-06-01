@@ -196,7 +196,7 @@ export function Loans() {
 
             {/* Total */}
             <motion.div className="flex items-center justify-between rounded-xl px-4 py-4 mt-1"
-              style={{ background:'rgba(196,87,43,0.06)', border:`1px solid rgba(196,87,43,0.25)` }}
+              style={{ background:'rgba(168,52,25,0.07)', border:`1px solid rgba(168,52,25,0.25)` }}
               initial={{ opacity:0 }} animate={inView?{opacity:1}:{}} transition={{ delay:1 }}>
               <div>
                 <div className="text-sm font-bold" style={{ color:C.terra }}>Mzigo wote · Total loans</div>

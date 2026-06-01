@@ -1,28 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 /* ── Colour system ─────────────────────────────────────────────────────────── */
 @theme {
-  --color-warm-950:  #0D0906;
-  --color-warm-900:  #130E09;
-  --color-warm-800:  #1C1510;
-  --color-warm-700:  #2A1F14;
-  --color-warm-600:  #3D2E1E;
-  --color-warm-400:  #7A6E63;
-  --color-warm-200:  #C4B49A;
-  --color-warm-50:   #F5F0E8;
-  --color-gold:      #D4A843;
-  --color-gold-dim:  #A07C2A;
-  --color-terra:     #C4572B;
-  --color-emerald:   #10b981;
+  --color-warm-950:  #FCF7EF;
+  --color-warm-900:  #F3E9D7;
+  --color-warm-800:  #E9DDD0;
+  --color-warm-700:  #CCBBA9;
+  --color-warm-400:  #8B7B6C;
+  --color-warm-200:  #3C2A18;
+  --color-warm-50:   #1B0E05;
+  --color-gold:      #9A6A0A;
+  --color-gold-dim:  #7A5208;
+  --color-terra:     #A83419;
+  --color-emerald:   #0B7A52;
 }
 
 /* ── Base ──────────────────────────────────────────────────────────────────── */
-html  { background: #0D0906; }
+html  { background: #FCF7EF; }
 body  {
   margin: 0;
-  font-family: 'IBM Plex Mono', Menlo, 'Courier New', monospace;
-  color: #F5F0E8;
+  font-family: 'Nunito', system-ui, sans-serif;
+  color: #1B0E05;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30,27 +29,27 @@ body  {
 
 /* ── Scrollbar ─────────────────────────────────────────────────────────────── */
 ::-webkit-scrollbar       { width: 5px; height: 5px; }
-::-webkit-scrollbar-track { background: #1C1510; }
-::-webkit-scrollbar-thumb { background: #3D2E1E; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #5a4428; }
+::-webkit-scrollbar-track { background: #F3E9D7; }
+::-webkit-scrollbar-thumb { background: #CCBBA9; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #B0A090; }
 
 /* ── Maasai divider (chevron strip) ───────────────────────────────────────── */
 .maasai-divider {
   width: 28px;
   flex-shrink: 0;
   align-self: stretch;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='18' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline points='3,2 15,9 3,16' fill='none' stroke='%23D4A843' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='18' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline points='3,2 15,9 3,16' fill='none' stroke='%239A6A0A' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: repeat-y;
   background-position: center;
   background-size: 20px 18px;
-  opacity: 0.7;
+  opacity: 0.9;
   position: relative;
 }
 .maasai-divider::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 14px 30% at 50% 50%, rgba(212,168,67,0.15), transparent);
+  background: radial-gradient(ellipse 14px 30% at 50% 50%, rgba(154,106,10,0.12), transparent);
   pointer-events: none;
 }
 
@@ -61,7 +60,7 @@ body  {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: conic-gradient(#10b981 67%, #1C1510 67%);
+  background: conic-gradient(#0B7A52 67%, #CCBBA9 67%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,13 +70,13 @@ body  {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #130E09;
+  background: #E9DDD0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 9px;
-  color: #10b981;
-  font-weight: 600;
+  color: #0B7A52;
+  font-weight: 700;
 }
 
 /* ── River map particle animation ─────────────────────────────────────────── */

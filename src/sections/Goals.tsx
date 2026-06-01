@@ -184,7 +184,7 @@ export function Goals() {
 
             {/* Total */}
             <motion.div className="flex items-center justify-between rounded-xl px-4 py-3 mt-1"
-              style={{ background:'rgba(212,168,67,0.06)', border:`1px solid rgba(212,168,67,0.2)` }}
+              style={{ background:'rgba(154,106,10,0.08)', border:`1px solid rgba(154,106,10,0.22)` }}
               initial={{ opacity:0 }} animate={inView?{opacity:1}:{}} transition={{ delay:0.9 }}>
               <div className="text-sm" style={{ color:C.muted }}>Total saved</div>
               <div>
