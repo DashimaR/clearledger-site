@@ -71,7 +71,7 @@ export function Transactions() {
   const inView = useInView(ref, { once: true, amount: 0.2 })
 
   return (
-    <section ref={ref} className="px-6 py-24 overflow-hidden">
+    <section ref={ref} className="px-6 py-24 overflow-hidden" style={{ background:'#DECAA8' }}>
       <div className="mx-auto max-w-6xl">
 
         {/* Header */}

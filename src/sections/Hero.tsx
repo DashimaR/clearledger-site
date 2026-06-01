@@ -130,7 +130,7 @@ export function Hero() {
 
       {/* Clarity */}
       <div className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-8 py-12"
-        style={{ background:`linear-gradient(135deg, ${C.bg950} 0%, ${C.bg900} 100%)` }}>
+        style={{ background:`linear-gradient(135deg, #DECAA8 0%, #CEB894 100%)` }}>
         <div className="pointer-events-none absolute inset-0"
           style={{ background:'radial-gradient(ellipse 60% 50% at 50% 60%, rgba(11,122,82,0.07), transparent)' }}
         />
