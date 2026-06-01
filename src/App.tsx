@@ -3,6 +3,8 @@ import { Hero }         from './sections/Hero'
 import { Transactions } from './sections/Transactions'
 import { Accounts }     from './sections/Accounts'
 import { Budgets }      from './sections/Budgets'
+import { Goals }        from './sections/Goals'
+import { Loans }        from './sections/Loans'
 import { motion, useInView } from 'motion/react'
 import { useRef } from 'react'
 
@@ -102,6 +104,10 @@ export default function App() {
       <Accounts />
       <SectionDivider />
       <Budgets />
+      <SectionDivider />
+      <Goals />
+      <SectionDivider />
+      <Loans />
       <SectionDivider />
       <Kenya />
       <SectionDivider />
